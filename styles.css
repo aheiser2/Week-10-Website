@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.large-header {
+    font-size: 70px;
+}
+
+.large-p {
+    font-size: 25px;
+}
+
+.writing {
+    color: floralwhite;
+}
+
+.card-bg {
+    background: url(Pictures/Pink\ and\ White\ Damask.webp)
+}
+
+.btn-color {
+    background-color: darkred;
+    color: floralwhite;
+}
+
+.table-color {
+    background: url(Pictures/Pink\ and\ White\ Damask.jpg);
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Your Wedding Tables</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <br>
+    <h1 class="writing large-header">Welcome to "Set Your Wedding Tables"!</h1>
+    <br>
+    <p class="writing large-p">Using the buttons below, you can create a table to add guests
+         to and keep track of your wedding guests' meals!</p>
+    <br>
+    <div class="d-grid gap2 col-8 mx-auto"> 
+        <button id="addTable" class ="btn btn-color btn-lg" value="Set a Table">Set a Table!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="card">
+        <div class="card-body card-bg">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-person">Name</label>
+                        <input type="text" class="form-control" id="new-person" placeholder="First Name - Last Name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-plus-one">Any Plus-Ones?</label>
+                        <input type="text" class="form-control" id="new-plus-one" placeholder="Number">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-meal-option">Meal Option</label>
+                        <input type="text" class="form-control" id="new-meal-option" placeholder="Beef, Chicken, Vegetarian">
+                    </div>
+                </div>
+            </div>
+            <div>
+            <button id="add-guest" class="btn btn-color">Add</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <h5></h5>
+    </div>
+
+    <script src="Wedding-Table-Planning.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
